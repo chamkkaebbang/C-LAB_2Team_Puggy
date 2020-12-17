@@ -132,6 +132,125 @@ body, ul, li {
     font-family: 'NanumBarunpen';
     left:385px;
 }
+
+/* 조이버튼 */
+
+input[id*="popup"] {
+    display: none;
+}
+/* ↓이친구 버튼임, 위치 지정할때는 백그라운드 색깔 넣고 움직이셈*/
+input[id*="popup"] + label {
+    position: relative;
+    display: inline-block;
+    padding: 109px;
+    border-radius: 100%;
+    left: 380px;
+    bottom: 178px;
+    z-index: 1;
+}
+input[id*="popup"] + label + div {
+    opacity: 0; visibility: hidden; transition: all 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+input[id*="popup"]:checked + label + div {
+    opacity: 1; visibility: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+/* ↓ 이친구가 박스임 */
+input[id*="popup"] + label + div > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 400px;
+    background: #2e5383;
+    border-radius: 4%;
+    z-index: 2;
+}
+/* ↓ 이친구가 닫기창임 */
+input[id*="popup"] + label + div > div > label {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(40%,-40%);
+    padding: 20px;
+    background: #c5d4eb;
+    border-radius: 100%;
+    z-index: 1;
+}
+input[id*="popup"] + label + div > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0,.9);
+    z-index: 1;
+}
+/* 조이버튼 끝 */
+
+/* 케찹버튼 */
+input[id*="popup1"] {
+    display: none;
+}
+input[id*="popup1"] + label {
+    display: inline-block;
+    padding: 109px;
+    border-radius: 100%;
+    left: 380px;
+    bottom: 178px;
+}
+input[id*="popup1"] + label + div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+input[id*="popup1"] + label + div > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 400px;
+    background: #2e5383;
+    border-radius: 4%;
+    z-index: 1;
+}
+input[id*="popup1"] + label + div > div > label {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(40%,-40%);
+    padding: 20px;
+    background: #c5d4eb;
+    border-radius: 100%;
+    z-index: 1;
+}
+input[id*="popup1"] + label + div > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0,.9);
+    z-index: 1;
+}
+/* 케찹버튼 끝 */
+
 #pic {
     position: relative;
     left: 360px;
@@ -139,7 +258,7 @@ body, ul, li {
 }
 
 .joy {
-      position: relative;
+    position: relative;
       left:450px;
       bottom: 410px;
       font-size: 20px;
