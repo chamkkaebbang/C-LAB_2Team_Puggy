@@ -117,60 +117,34 @@ body, ul, li {
 
 //요기서부터 블리부분
 
-#pic {
-    position: relative; left: 1030px;
-    position: relative; bottom: 295px;
+.inner-container3
+{
+    position: relative; right: -120px;
+    left:50px;
 }
-
-#logo {
-    
-    position: absolute;
-    left:380px;
-    top: 1200px;
+.빅제목 {
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
     color: #2e5383;
+    position: relative; bottom: 430px;
     font-family: 'NanumBarunpen';
-
+    left:385px;
 }
-
+#pic {
+    position: relative;
+    left: 360px;
+    bottom: 430px;
+}
 
 .joy {
       position: relative;
-      left:95px;
-      top: 0px;
+      left:450px;
+      bottom: 410px;
       font-size: 20px;
       font-weight: bold;
-      font-family: 'NanumBarunpen';
-     
-}
-.k {
-  position: relative;
-  left:395px;
-  top: -25px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #333333;
-  font-family: 'NanumBarunpen';
-}
-.v {
-  position: relative;
-  left:720px;
-  top: -53px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #555555;
-  font-family: 'NanumBarunpen';
-}
-
-.d {
-  position: relative;
-  left:987px;
-  top: -82px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #777777;
-  font-family: 'NanumBarunpen';
+      font-family: 'NanumBarunpen';  
 }
 
 
