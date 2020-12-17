@@ -1,3 +1,11 @@
+#roof { 
+    height: 50px;
+}
+.container {
+    display: inline-block;
+    width: 1050px;
+    height: 70px;
+}
 body, ul, li {
     margin: 0;
     padding: 0;
@@ -11,7 +19,6 @@ body, ul, li {
     background-color: #c5d4eb;
     padding: 10px 30px; 
     border-radius: 5px;
-    
 }
 .menu > ul > li {
     display: inline-block;   
@@ -27,10 +34,11 @@ body, ul, li {
 //조이
 .inner-container1
 {
-    position: relative; right: -140px;
-    width: 350px;
+    position: relative; right: -120px;
+    left: 50px;
+    width: 50px;
 }
-
+/* ↓ 길뭉치 STUDIO~ */
 .puggy{
     font-size: 30px;
     font-weight: bold;
@@ -42,7 +50,7 @@ body, ul, li {
     left:50px;
    
 }
-
+/* ↓ 유기견보호소의 안락사율 ~ */
 .yo{
     font-size: 25px;
     text-align: left;
@@ -51,16 +59,16 @@ body, ul, li {
     font-family: 'NanumBarunpen';
     left:50px;
 }
-
+/* ↓ 길뭉치 로고 */
 .img{
-    position: relative; right: -900px;
-    position: relative; top: -60px;
+    position: relative; right: -600px;
+    position: relative; bottom: 220px;
 };
 
 //요기서부터 케찹 부분임
 .inner-container2
 {
-    position: relative; right: -140px;
+    position: relative; right: -120px;
     left:50px;
 }
 
@@ -88,9 +96,10 @@ body, ul, li {
     
     
 }
+/* ↓ 멍멍이 움짤 */
 .fit-picture {
     width: 350px;
-    position: relative; right: -900px;
+    position: relative; right: -600px;
     position: relative; top: -60px;
     
 }
@@ -120,27 +129,27 @@ img{
 
 
 .joy {
-      position: absolute;
-      left:120px;
-      bottom: -960px;
+      position: relative;
+      left:95px;
+      top: 0px;
       font-size: 20px;
       font-weight: bold;
       font-family: 'NanumBarunpen';
      
 }
 .k {
-  position: absolute;
-  left:400px;
-  bottom: -960px;
+  position: relative;
+  left:395px;
+  top: -25px;
   font-size: 20px;
   font-weight: bold;
   color: #333333;
   font-family: 'NanumBarunpen';
 }
 .v {
-  position: absolute;
-  left:709px;
-  bottom: -960px;
+  position: relative;
+  left:720px;
+  top: -53px;
   font-size: 20px;
   font-weight: bold;
   color: #555555;
@@ -148,9 +157,9 @@ img{
 }
 
 .d {
-  position: absolute;
-  left:995px;
-  bottom: -960px;
+  position: relative;
+  left:987px;
+  top: -82px;
   font-size: 20px;
   font-weight: bold;
   color: #777777;
