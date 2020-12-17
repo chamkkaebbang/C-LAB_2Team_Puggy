@@ -11,6 +11,7 @@ body, ul, li {
     background-color: #c5d4eb;
     padding: 10px 30px; 
     border-radius: 5px;
+    
 }
 .menu > ul > li {
     display: inline-block;   
@@ -27,6 +28,7 @@ body, ul, li {
 .inner-container1
 {
     position: relative; right: -140px;
+    width: 350px;
 }
 
 .puggy{
@@ -128,7 +130,7 @@ img{
 }
 .k {
   position: absolute;
-  left:409px;
+  left:400px;
   bottom: -960px;
   font-size: 20px;
   font-weight: bold;
