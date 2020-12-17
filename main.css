@@ -20,6 +20,60 @@ body, ul, li {
     cursor: pointer;
     transition: opacity .1s ease .1s;
 }
+//조이
+.inner-container1
+{
+    position: relative; right: -140px;
+}
+
+.puggy{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #2e5383;
+    position: relative; bottom: -60px;
+   
+}
+
+.yo{
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 90px;
+    position: relative; bottom: -60px;
+}
+
+.img{
+    position: relative; right: -900px;
+    position: relative; top: -60px;
+};
+
+//케찹
+.inner-container2
+{
+    position: relative; right: -140px;
+}
+.큰제목{
+    
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #2e5383;
+    font-family: 'NanumBarunpen';
+}
+.부제목{
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 90px;
+    font-family: 'NanumBarunpen';
+}
+.fit-picture {
+    width: 350px;
+    float: right;
+    position: relative; left: -240px;
+}
+
 //요기서부터 블리부분
 
 img{
@@ -74,30 +128,4 @@ img{
   font-size: 20px;
   font-weight: bold;
   color: #777777;
-}
-//요기서부터 케찹 부분
-.inner-container1
-{
-    position: relative; right: -140px;
-}
-
-.큰제목{
-    
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: left;
-    color: #2e5383;
-    font-family: 'NanumBarunpen';
-}
-.부제목{
-    font-size: 25px;
-    text-align: left;
-    margin-bottom: 90px;
-    font-family: 'NanumBarunpen';
-}
-.fit-picture {
-    width: 350px;
-    float: right;
-    position: relative; left: -240px;
 }
