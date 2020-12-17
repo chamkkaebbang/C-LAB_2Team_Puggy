@@ -1,0 +1,43 @@
+.Main-container {
+    position: relative;
+    width: 1040px;
+    margin: 0 auto;
+}
+#roof { 
+    height: 70px;
+}
+#roof > img {
+    position: relative; right: -200px;
+}
+#roof > h1 {
+    position: relative;
+    left: 285px;
+    bottom: 79px;
+}
+.container {
+    height: 70px;
+}
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'NanumBarunpen';
+}
+.menu {
+    text-align: center;
+}
+.menu > ul {
+    background-color: #c5d4eb;
+    padding: 10px 30px; 
+    border-radius: 5px;
+}
+.menu > ul > li {
+    display: inline-block;   
+    margin-top: 5px;
+    width: 450px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: opacity .1s ease .1s;
+
+}
