@@ -20,6 +20,8 @@ body, ul, li {
     cursor: pointer;
     transition: opacity .1s ease .1s;
 }
+//요기서부터 블리부분
+
 img{
     display:block;
     margin:130px auto;
