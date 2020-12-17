@@ -90,8 +90,8 @@ img{
 
 #logo{
     position: absolute;
-    left:230px;
-    top: 80px;
+    left:50px;
+    top: 1200px;
     font-size: 35px;
     font-weight: bold;
     color: #2e5383;
@@ -101,24 +101,24 @@ img{
 
 .joy {
       position: absolute;
-      left:302px;
-      bottom: 280px;
+      left:120px;
+      bottom: -960px;
       font-size: 20px;
       font-weight: bold;
      
 }
 .k {
   position: absolute;
-  left:555px;
-  bottom: 280px;
+  left:409px;
+  bottom: -960px;
   font-size: 20px;
   font-weight: bold;
   color: #333333;
 }
 .v {
   position: absolute;
-  left:800px;
-  bottom: 280px;
+  left:709px;
+  bottom: -960px;
   font-size: 20px;
   font-weight: bold;
   color: #555555;
@@ -126,8 +126,8 @@ img{
 
 .d {
   position: absolute;
-  left:1033px;
-  bottom: 280px;
+  left:995px;
+  bottom: -960px;
   font-size: 20px;
   font-weight: bold;
   color: #777777;
