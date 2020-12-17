@@ -41,3 +41,25 @@ body, ul, li {
     transition: opacity .1s ease .1s;
 
 }
+/* 요기부턴 컨텍트 */
+.inner-container1 {
+    position: relative; right: -10px;
+    left:10px;
+    height: 950px;
+}
+.큰제목 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    color: #2e5383;
+    position: relative; bottom: -60px;
+    font-family: 'NanumBarunpen';
+    left:330px;
+   
+}
+.작은제목 {
+    font-size: 35px;
+    text-align: left;
+    position: relative; bottom: -60px;
+    font-family: 'NanumBarunpen';
+    left:340px;
