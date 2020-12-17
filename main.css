@@ -34,7 +34,7 @@ body, ul, li {
 .puggy{
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: left;
     color: #2e5383;
     position: relative; bottom: -60px;
@@ -156,3 +156,23 @@ img{
   color: #777777;
   font-family: 'NanumBarunpen';
 }
+
+.ggg {
+    position: absolute;
+    left:130px;
+    bottom: 90px;
+    font-size: 20px;
+    
+    color: #6b97b5;
+    font-family: 'NanumBarunpen';
+}
+ .ccc {
+    color: black;
+ font-size: 20px;
+ text-align: left;
+ margin-bottom: 90px;
+ position: relative; bottom: -50px;
+ font-family: 'NanumBarunpen';
+ left:0px;
+ }
+
