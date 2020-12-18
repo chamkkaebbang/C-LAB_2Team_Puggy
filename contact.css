@@ -52,14 +52,14 @@ body, ul, li {
     font-weight: bold;
     text-align: left;
     color: #2e5383;
-    position: relative; bottom: -60px;
+    position: relative; bottom: -80px;
     font-family: 'NanumBarunpen';
-    left:330px;
+    left:220px;
    
 }
 .작은제목 {
     font-size: 35px;
     text-align: left;
-    position: relative; bottom: -60px;
+    position: relative; bottom: -100px;
     font-family: 'NanumBarunpen';
-    left:340px;
+    left:220px;
