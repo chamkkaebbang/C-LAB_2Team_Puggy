@@ -84,11 +84,31 @@
  .container {
      width: 100%;
      height: 100vh;
-     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(wall.jpg);
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(wall.png);
      background-position: center;
      background-size: cover;
+     padding-left: 4%;
+     padding-right: 8%;
+     box-sizing: border-box;
  }
  /* 소개글 */
  .row {
-     
+     display:flex;
+     height: 88%;
+     align-items: center;
+ }
+ .col {
+     flex-basis: 50%;
+ }
+ .col > h1, p {
+    margin-block:0;
+ }
+ h1 {
+     color:#c5d4eb ;
+     font-size: 70px;
+ }
+ p {
+     color: white;
+     font-size: 30px;
+     line-height: 40px;
  }
