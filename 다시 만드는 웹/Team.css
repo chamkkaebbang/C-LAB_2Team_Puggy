@@ -79,12 +79,10 @@ a {
     .navbar__icons.active {
         display: flex;
     }
+}   
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-    #jimg{
-        display: flex;
-        padding-right: 20%;
     }
-}
+
