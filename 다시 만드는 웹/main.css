@@ -83,11 +83,11 @@
  /* 배경화면 */
  .container {
      width: 100%;
-     height: 100vh;
+     height: 91.4vh;
      background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(wall.png);
-     background-position: center;
-     background-size: cover;
-     padding-left: 4%;
+     background-position-y: -170px;
+     background-size: ;
+     padding-left: 8%;
      padding-right: 8%;
      box-sizing: border-box;
  }
