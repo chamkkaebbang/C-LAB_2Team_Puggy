@@ -79,7 +79,6 @@
      .navbar__icons.active {
          display: flex;
      }
- }
  /* 배경화면 */
  .container {
      width: 100%;
