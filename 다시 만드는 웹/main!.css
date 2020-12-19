@@ -84,9 +84,9 @@ a {
 .container {
     width: 100%;
     height: 91.4vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(wall.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(wall.png);
     background-position-y: -275px;
-    padding-left: 8%;
+    padding-left: 5%;
     padding-right: 8%;
     box-sizing: border-box;
 }
@@ -104,7 +104,7 @@ h1 {
     color: #c5d4eb;
     font-size: 70px;
 }
-p { 
+.col > p { 
     color: white;
     font-size: 30px;
     margin-top: 10px;
@@ -153,29 +153,31 @@ button:hover {
     text-align: center;
   }
 .card1 {
-  background-image: url(조이.png);
+  background-image: url(Team.png);
 }
 .card2 {
-  background-image: url(케찹.png);
+  background-image: url(What.png);
 }
 .card3 {
-  background-image: url(블리.png);
+  background-image: url(Store.png);
 }
 .card4 {
-  background-image: url(동동.png);
-}
-.card:hover {
-    transform: translateX(-10px);
-    background-color: rgba(0, 0, 0, 0.274);
-}
-h5 {
-    color: white;
-    text-shadow: 0 0 5px #999;
+  background-image: url(Contact.png);
 }
 .card p {
+    color: whitesmoke;
     text-shadow: 0 0 10px #000;
     font-size: 20px;
     margin-top: 5px;
     line-height: 25px;
     text-align: center;
-  }
+}
+h5 {
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+.card:hover {
+    filter: brightness(90%);
+    transform: translateX(-10px);
+    background-color: rgba(0, 0, 0, 0.2);
+}
