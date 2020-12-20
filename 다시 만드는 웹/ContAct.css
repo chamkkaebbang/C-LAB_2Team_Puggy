@@ -79,3 +79,40 @@ a {
     .navbar__icons.active {
         display: flex;
     }
+
+    .inner-container1 {
+        position: relative; right: -10px;
+        left:10px;
+        height: 950px;
+    }
+    
+
+
+    }
+    .작은제목 {
+        font-size: 25px;
+        text-align: left;
+        font-family: 'NanumBarunpen';
+        left:220px;  
+        color: black;    
+        margin: 30px 150px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mc{
+        display: flex;
+        justify-content : flex-end;
+        position: relative; top: -70px;
+        position: relative; left: -70px;
+
+    }
+
+    .bc{
+        display: flex;
+        justify-content : flex-end;
+        position: relative; bottom: -100px;
+        position: relative; left: -380px;
+
+        
+    }

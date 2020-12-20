@@ -80,9 +80,47 @@ a {
         display: flex;
     }
 }   
+
 .container{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: right;
+    font-size: 22px;
+
 }
 
+.jocontainer{
+    text-align: center;
+    position: relative; bottom: -150px;
+    
+}
+.name{
+    font-size: 20px;
+    color: #2e5383;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+.joy{
+    font-size:21px;
+    color: black;
+}
+.ket{
+    font-size:21px;
+    color: black;
+}
+ 
+.vel{
+    font-size:21px;
+    color: black;
+}
+ 
+.don{
+    font-size:21px;
+    color: black;
+}
+ 
+ 
