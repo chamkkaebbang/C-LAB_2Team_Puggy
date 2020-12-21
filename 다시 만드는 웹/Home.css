@@ -84,8 +84,9 @@ a {
 .container {
     width: 100%;
     height: 91.4vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(wall.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(ㅇ.gif);
     background-position-y: -275px;
+    background-position-x: 280px;
     padding-left: 5%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -101,11 +102,11 @@ a {
     display: inline;
 }
 h1 {
-    color: #c5d4eb;
+    color: #2e5383;
     font-size: 70px;
 }
 .col > p { 
-    color: white;
+    color: #666;
     font-size: 30px;
     margin-top: 10px;
     line-height: 40px;
