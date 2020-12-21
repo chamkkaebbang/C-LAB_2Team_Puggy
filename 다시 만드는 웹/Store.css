@@ -161,7 +161,7 @@ a {
     width: 220px;
     border-top: 1px solid #ccc;
     text-align: right;
-    font-size: 13px;
+    font-size: 18px;
 }
 .info_box li a .ico {
     position: absolute;
@@ -171,15 +171,16 @@ a {
     height: 65px;
     text-align: center;
     line-height:65px;
-    font-size: 13px;
+    font-size: 18px;
+    
 }
 .info_box li a .ico.no1 {
     color: #fff;
-    background-color: #2e5383;
+    background-color: #94b2da;
 }
 .info_box li a .ico.no2 {
-    color: black;
-    background-color: #c5d4eb;
+    color: rgb(83, 82, 82);
+    background-color: #d3e2f8;
 }
 .info_box ul > + * {
     margin-top: 30px;
