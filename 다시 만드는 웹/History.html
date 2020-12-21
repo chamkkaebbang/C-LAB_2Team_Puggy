@@ -39,3 +39,58 @@
         </nav>
     </section 1>
     <!-- 메뉴바 끝 -->
+    <section>
+        <!-- 이미지 슬라이더 부분 -->
+					<div class="bbox">
+                        <h2>퍼기의<span>배움여정</span></h2>
+						<div style= "overflow: hidden">
+							<div class="ccontainer">
+                                <div class="inner">
+                                    <div class="text">
+                                        <p>동해물과 백두산이 마를까 말까</p>
+                                        <h1>Dresign Thinking</h1>
+                                        <small>
+                                        디자인 씽킹이란 머시기 머시기 머시베놈 어쩌구 저쩌구 으랏차
+                                        </small>
+                                    </div>
+									<img src="디자인 씽킹.JPG" alt="myimage" width="1500px", height="500px">
+								</div>
+								<div class="inner">
+                                    <div class="text">
+                                        <p>우리나라 만세삼창곱창</p>
+                                        <h1>다시사랑받개</h1>
+                                        <small>
+                                        다시사랑받개에 가서 유기견 친구들이랑 놀고 그랬고 어쩌고
+                                        </small>
+                                    </div>
+									<img src="다시사랑받개.JPG" alt="myimage" width="1500px", height="500px">
+								</div>
+								<div class="inner"><div class="text">
+                                    <p>가을하늘이 공활한데 높고 구름이 없네?</p>
+                                    <h1>혜성같이 등장한 괴물신인</h1>
+                                    <small>
+                                    퍼기팀의 '신의한수' 동동이 영입이 레전드로 남게되었다
+                                    </small>
+                                </div>
+									<img src="쩜프.jpg" alt="myimage" width="1500px", height="500px">
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="빠튼">1</button>
+					<button class="빠튼-1">2</button>
+					<button class="빠튼-2">3</button>
+				</div>
+				<script>    
+					document.querySelector('.빠튼').addEventListener('click', function(){
+						document.querySelector('.ccontainer').style.transform = 'translate(+0vw)';
+					});
+					document.querySelector('.빠튼-1').addEventListener('click', function(){
+						document.querySelector('.ccontainer').style.transform = 'translate(-40vw)';
+					});
+					document.querySelector('.빠튼-2').addEventListener('click', function(){
+						document.querySelector('.ccontainer').style.transform = 'translate(-80vw)';
+					});
+				</script>
+				<!-- 이미지 슬라이더 부분 끝 -->
+    </section>

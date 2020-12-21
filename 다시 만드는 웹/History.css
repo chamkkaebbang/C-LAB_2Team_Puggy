@@ -79,3 +79,50 @@ a {
     .navbar__icons.active {
         display: flex;
     }
+}
+
+/* 이미지 슬라이더 시작 */
+.bbox {
+    display: inline-block;
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    width: 40vw;
+}
+.bbox h2 {
+    padding: 20px 41px;
+    font-size: 30px;
+    color: #777;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 36px;
+}
+.bbox h2 span {
+    color:#2e5383 ;
+}
+.ccontainer {
+    width: 300vw;
+    transition: transform 0.5s ;
+}
+.text {
+    position: absolute;
+    color: white;
+}
+.inner {
+    width: 40vw;   
+    float: left;
+}
+.inner img {
+    width: 100%;
+}
+.빠튼, .빠튼-1, .빠튼-2 {
+    position: relative;
+    top: 650px;  
+    left: 865px;
+    background-color: black;
+    border-radius: 60%;
+    color: white;
+    border:2px solid white;
+    margin-bottom: 20px;
+}
+/* 이미지 슬라이더 끝 */
