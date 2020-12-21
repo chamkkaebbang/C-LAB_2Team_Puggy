@@ -83,6 +83,18 @@ a {
 * {
     padding:0;
 }
+.section h2 {
+    padding: 20px 41px;
+    font-size: 30px;
+    color: #777;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 15px;
+    margin-block: 0;
+}
+.section h2 span {
+    color:#2e5383 ;
+}
 .section input[id*="slide"] {
     display:none;
 }

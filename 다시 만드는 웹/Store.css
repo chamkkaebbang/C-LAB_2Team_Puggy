@@ -97,11 +97,14 @@ a {
     font-weight: normal;
     text-align: center;
     letter-spacing: 36px;
+    margin-block: 0;
 }
 .info_box h2 span {
     color:#2e5383 ;
 }
-
+.clear {
+    margin-block: 0;
+}
 .info_box li {
     float: left;
     margin: 0 0 0 30px;

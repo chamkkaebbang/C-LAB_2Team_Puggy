@@ -80,6 +80,142 @@ a {
         display: flex;
     }
 }
+*{
+    padding:0;
+}
+.video-con {
+	font-size:0;
+	max-width:850px;
+	margin:0 auto;
+}
+.video-con > li {
+	font-size:12px;
+	display:inline-block;
+	width:100%;
+	vertical-align:top;background:#fff;padding:10px;
+	box-sizing:border-box;
+	border-radius:5px;
+	box-shadow:1px 3px 5px rgba(0,0,0,.2);
+	background:#f5f5f5;
+    transition:all .35s;margin-bottom:30px;
+    padding: 0;
+}
+.video-con > h3 {
+	text-align:center;
+	padding: 20px 41px;
+	font-size:30px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 15px;
+    margin-block: 0;
+}
+.video-con > h3 span {
+    color:#2e5383 ;
+}
+.textbox {
+    cursor:pointer;
+	text-align:center;
+	margin:10px;
+}
+.textbox .title {
+    background:#f5f5f5;
+	padding:30px 10px;
+	position:relative;
+	z-index:30;
+	max-width:100px;
+	margin:0 auto;
+    margin-top:-30px;
+    font-size: 20px;
+}
+.textbox .title:after {
+	content:'';
+	display:block;
+	width:20%;
+	height:5px;
+	border-radius:10px;
+	position:absolute;
+	top:10%;
+	left:50%;
+	transform:translateX(-50%);
+	background:#2e5383;
+}
+.textbox .title:before {
+	content:'';
+	display:block;
+	width:20%;
+	height:5px;
+	border-radius:10px;
+	position:absolute;
+	bottom:10%;
+	left:50%;
+	transform:translateX(-50%);
+	background:#2e5383;
+}
+
+.thumb {
+	width:auto;
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+}
+.thumb img {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:100%;
+	transition: .35s ease-in-out;
+	z-index:10;
+}
+.thumb:before {
+	content:'';
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:rgba(0,0,0,.6) url('./img/eye.png') center center no-repeat;
+	transition: .35s ease-in-out;
+	z-index:20;
+	opacity:0;
+}
+.desc {
+	display:inline;
+	margin-top:20px;
+	font-size:20px;
+	line-height:1.6;
+	color:#333;
+	word-break:keep-all;
+	text-align:left;
+}
+.desc .pen {
+	position:relative;
+}
+.desc .pen span {
+	position:relative;
+	z-index:10;
+}
+.desc .pen:after {content:'';
+position:absolute;
+height:100%;
+width:0;
+top:0;
+left:0;
+background:#94b2da;
+transition:.35s;
+z-index:5;
+}
+.textbox:hover .thumb img {
+	width:110%;
+}
+.textbox:hover .thumb:before {
+	opacity:1;
+}
+.textbox:hover .desc .pen:after {
+	width:100%;
+}
 .inner-container1 {
     width: 100%;
     height: 100%;
