@@ -80,9 +80,14 @@ a {
         display: flex;
     }
 }
-
-
-
+.inner-container1 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(background.jpg);
+    padding-left: 5%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
 .puggy{
     font-size: 20px;
     font-weight: bold;
@@ -139,6 +144,7 @@ a {
 
 .fit-picture {
     width: 450px;
+    height: 400px;
     position: relative; left: 1000px;
     position: relative; top: -100px;
 }
