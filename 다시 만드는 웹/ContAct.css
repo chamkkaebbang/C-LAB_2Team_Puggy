@@ -86,7 +86,11 @@ a {
         height: 950px;
     }
     
-
+    .fit-picture {
+        width: 350px;
+        position: relative; top: -350px;
+        
+    }
 
     }
     .작은제목 {
@@ -98,6 +102,7 @@ a {
         margin: 30px 150px;
         display: flex;
         flex-direction: column;
+        
     }
 
     .mc{
