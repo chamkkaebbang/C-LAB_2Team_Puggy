@@ -2,10 +2,16 @@ body {
     margin: 0;
     font-family: 'NanumBarunpen';
 }
+
 a {
     text-decoration: none;
     color: white;
 }
+.navbar__menu > li > a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -40,6 +46,11 @@ a {
     display: flex;
     padding-left: 0;
 
+}
+
+.navbar_icons > li > a {
+    color: white;
+    text-decoration: none;
 }
 .navbar__icons li {
     padding: 8px 15px;
@@ -96,8 +107,9 @@ a {
    box-sizing: border-box; 
    height: 700px;
    width: 1500px;
-   margin-left: 200px;
+   margin-left: 250px;
    margin-top: 175px;
+   
    } 
    
     .작은제목 {
@@ -105,17 +117,20 @@ a {
         text-align: left;
         font-family: 'NanumBarunpen';
         left:220px;  
-        color: black; 
+        color: black;
 
-        
-        
+    }
+
+    .작은제목 > a {
+        color:#2e5383 ;
     }
 
     .mc{
         display: flex;
         justify-content : flex-end;
-        position: relative; top: -260px;
-        margin-right: -90px;
+        position: relative; top: -520px;
+        left: -100px;
+        
     }
 
    
