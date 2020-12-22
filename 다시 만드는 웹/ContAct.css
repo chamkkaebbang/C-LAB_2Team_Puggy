@@ -91,33 +91,31 @@ a {
         position: relative; top: -350px;
         
     }
-
-    }
+}
+   .cocontainer{
+   box-sizing: border-box; 
+   height: 700px;
+   width: 1500px;
+   margin-left: 200px;
+   margin-top: 175px;
+   } 
+   
     .작은제목 {
-        font-size: 25px;
+        font-size: 30px;
         text-align: left;
         font-family: 'NanumBarunpen';
         left:220px;  
-        color: black;    
-        margin: 30px 150px;
-        display: flex;
-        flex-direction: column;
+        color: black; 
+
+        
         
     }
 
     .mc{
         display: flex;
         justify-content : flex-end;
-        position: relative; top: -70px;
-        position: relative; left: -70px;
-
+        position: relative; top: -260px;
+        margin-right: -90px;
     }
 
-    .bc{
-        display: flex;
-        justify-content : flex-end;
-        position: relative; bottom: -100px;
-        position: relative; left: -380px;
-
-        
-    }
+   
