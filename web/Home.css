@@ -83,7 +83,7 @@ a {
 /* wallpaper . */
 .container {
     width: 100%;
-    height: 91.4vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(ㅇ.gif);
     background-position-y: -275px;
     background-position-x: 280px;
