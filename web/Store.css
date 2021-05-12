@@ -179,11 +179,11 @@ a {
 }
 .info_box li a .ico.no1 {
     color: #fff;
-    background-color: #94b2da;
+    background-color: #2e5383;
 }
 .info_box li a .ico.no2 {
-    color: rgb(83, 82, 82);
-    background-color: #d3e2f8;
+    color: #fff;
+    background-color: #94b2da;
 }
 .info_box ul > + * {
     margin-top: 30px;
