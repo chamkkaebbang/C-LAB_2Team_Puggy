@@ -165,6 +165,9 @@ a {
 .section input[id="slide04"]:checked ~ .slidewrap .slidelist > li {
     transform:translateX(-300%);
 }
+.section input[id="slide05"]:checked ~ .slidewrap .slidelist > li {
+    transform:translateX(-400%);
+}
 
 /* input에 체크되면 텍스트 효과 */
 .section input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox h3 {
@@ -199,6 +202,14 @@ a {
     opacity:1;transform:translateY(0);
     transition-delay:.4s;
 }
+.section input[id="slide05"]:checked ~ .slidewrap li:nth-child(5) .textbox h3 {
+    opacity:1;transform:translateY(0);
+    transition-delay:.2s;
+}
+.section input[id="slide05"]:checked ~ .slidewrap li:nth-child(5) .textbox p {
+    opacity:1;transform:translateY(0);
+    transition-delay:.4s;
+}
 
 /* 좌,우 슬라이드 버튼 */
 .slide-control > div {
@@ -222,6 +233,9 @@ a {
     display:block;
 }
 .section input[id="slide04"]:checked ~ .slidewrap .slide-control > div:nth-child(4) {
+    display:block;
+}
+.section input[id="slide05"]:checked ~ .slidewrap .slide-control > div:nth-child(5) {
     display:block;
 }
 
@@ -251,5 +265,8 @@ a {
     background:#2e5383;
 }
 .section input[id="slide04"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(4) > label {
+    background:#2e5383;
+}
+.section input[id="slide05"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(5) > label {
     background:#2e5383;
 }
